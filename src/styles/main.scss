@@ -1,0 +1,23 @@
+@import 'colours';
+@import 'typography';
+@import 'layout';
+
+$link_colour: #333;
+
+a {
+  color: $link_colour;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 1em;
+}
+
+img {
+  display: block;
+  margin: auto;;
+  max-width: 95%;
+  max-height: 85vh;
+  margin-bottom: 1.5em;
+}

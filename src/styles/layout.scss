@@ -1,0 +1,52 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #EEE;
+}
+
+.container {
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+}
+
+article {
+  position: relative;
+  z-index: 1;
+  padding: 7em 5em;
+}
+
+article::before,
+article::after {
+  box-sizing: border-box;
+  position: absolute;
+	content: '';
+	pointer-events: none;
+  top: 0;
+	left: -25%;
+	z-index: -1;
+	width: 150%;
+	height: 75%;
+	background: inherit;
+	transform: rotate(-2deg);
+	transform-origin: 0 0;
+}
+
+article::after {
+  height: 50%;
+	transform: rotate(-3deg);
+	transform-origin: 3% 0;
+}
+
+article:nth-child(1) {
+  padding-top: 2em;
+  background-color: indianred;
+}
+article:nth-child(2) { background-color: coral; }
+article:nth-child(3) { background-color: orchid; }
+article:nth-child(4) { background-color: aliceblue; }
+
+article:nth-child(2)::after { transform: rotate(2deg); }
+article:nth-child(3)::after { transform: rotate(4deg); }
+article:nth-child(4)::after { transform: rotate(7deg); }
