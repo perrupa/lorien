@@ -1,5 +1,6 @@
 @import 'functions';
 
+$chicle: 'Chicle';
 $oswald: 'Oswald';
 $lato: 'Lato';
 $pt: 'PT Mono';
@@ -8,10 +9,11 @@ $raleway: 'Raleway';
 $rubik: 'Rubik';
 $questrial: 'Questrial';
 $playfair: 'Playfair Display';
-$pmarker: 'Permanent Marker';
+$spectral: 'Spectral';
 
 //$fonts:
 @include gwf(
+  $chicle,
   $oswald,
   $lato,
   $pt,
@@ -19,12 +21,12 @@ $pmarker: 'Permanent Marker';
   $roboto,
   $raleway,
   $rubik,
-  $pmarker,
+  $spectral,
   $questrial
 )
 
 $title-font: $playfair, sans-serif;
-$body-font: $lato, sans-serif;
+$body-font: $spectral, sans-serif;
 $code-font: $pt, monospace;
 
 html {
@@ -35,6 +37,16 @@ html {
 body {
   font-weight: 400;
   line-height: 1.45;
+}
+
+.title {
+
+}
+
+.subtitle {
+  font-size: 1.5em;
+  position: relative;
+  top: -3em;
 }
 
 p {

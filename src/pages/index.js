@@ -8,10 +8,10 @@ class IndexPage extends Component {
     return (
       <div>
         <article>
-          <h1>
+          <h1 className='title'>
             Lorien Masters
           </h1>
-          <em>Transformation Life Coach</em>
+          <em className='subtitle'>Transformation Life Coach</em>
         </article>
 
         <article>
