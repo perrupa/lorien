@@ -2,12 +2,10 @@ body,
 html {
   margin: 0;
   padding: 0;
-  background-color: #EEE;
 }
 
-.container {
-  overflow: hidden;
-  width: 100%;
-  margin: 0;
+section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
-

@@ -21,3 +21,12 @@ img {
   max-height: 85vh;
   margin-bottom: 1.5em;
 }
+
+section {
+  @each $index, $bgcolor in $pinks {
+    &:nth-child(#{$index}) {
+      background-color: #{$bgcolor};
+    }
+  }
+}
+
