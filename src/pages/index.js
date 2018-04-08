@@ -6,6 +6,7 @@ const Header = () =>
     <h1 className='title'>
       Lorien Masters
     </h1>
+    <img src="images/Lo.jpg" alt="Beautiful young life coach" />
     <em className='subtitle'>Transformation Life Coach</em>
   </section>
 
@@ -18,8 +19,7 @@ const MissionStatement = () =>
 
 const AboutMe = () =>
   <section>
-      <h2>About Me</h2>
-    <img src="" alt="Beautiful young life coach" />
+    <h2>About Me</h2>
   </section>
 
 const Packages = () =>
