@@ -6,7 +6,7 @@ const Header = () =>
     <h1 className='title'>
       Lorien Masters
     </h1>
-    <img src="images/Lo.jpg" alt="Beautiful young life coach" />
+    <img className="headshot" src="images/Lo.jpg" alt="Beautiful young life coach" />
     <em className='subtitle'>Transformation Life Coach</em>
   </section>
 

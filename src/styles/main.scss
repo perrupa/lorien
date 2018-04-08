@@ -22,6 +22,27 @@ img {
   margin-bottom: 1.5em;
 }
 
+.title {
+  z-index: 1;
+  margin: 0;
+  margin-bottom: -.5em;
+}
+
+.headshot {
+  opacity: 0.7;
+  max-width: 70%;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  position: relative;
+  top: -2em;
+  padding: 1em;
+  background-color: rgba(map-get($pinks, 1), 1);
+  max-width: 60%;
+  margin: auto;
+}
+
 section {
   @each $index, $bgcolor in $pinks {
     &:nth-child(#{$index}) {
