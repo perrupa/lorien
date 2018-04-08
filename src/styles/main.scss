@@ -38,7 +38,7 @@ img {
   position: relative;
   top: -2em;
   padding: 1em;
-  background-color: rgba(map-get($pinks, 1), 1);
+  background-color: map-get($pinks, 1);
   max-width: 60%;
   margin: auto;
 }
@@ -46,7 +46,7 @@ img {
 section {
   @each $index, $bgcolor in $pinks {
     &:nth-child(#{$index}) {
-      background-color: #{$bgcolor};
+      background-color: #{rgba( $bgcolor, 0.3 )};
     }
   }
 }
