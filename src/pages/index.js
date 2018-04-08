@@ -1,63 +1,78 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
+const Header = () =>
+  <section>
+    <h1 className='title'>
+      Lorien Masters
+    </h1>
+    <em className='subtitle'>Transformation Life Coach</em>
+  </section>
+
+const MissionStatement = () =>
+  <section>
+    <h2>Mission Statement</h2>
+  </section>
+
+const AboutMe = () =>
+  <section>
+      <h2>About Me</h2>
+    <img src="" alt="Beautiful young life coach" />
+  </section>
+
+const Packages = () =>
+  <section>
+    <h2>Packages</h2>
+    <article></article>
+    <article></article>
+    <article></article>
+  </section>
+
+const ContactInfo = () =>
+  <section>
+    <h2>Let's talk</h2>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </section>
+
 class IndexPage extends Component {
   render() {
-    const posts = []
     return (
       <div>
-        <article>
-          <h1 className='title'>
-            Lorien Masters
-          </h1>
-          <em className='subtitle'>Transformation Life Coach</em>
-        </article>
-
-        <article>
-          <h2>About Me</h2>
-          <p>Sit harum deleniti vero reiciendis maiores. Repellendus molestias laborum aut magnam debitis modi Eligendi delectus ipsam porro facere explicabo eum. Ipsam in excepturi ducimus harum necessitatibus. Accusamus nisi consequatur natus ipsum illo amet accusantium voluptas dicta! Fugit deserunt animi non debitis nam Placeat excepturi eum dolorem nihil amet deserunt Quae.</p>
-        </article>
-
-        <article>
-          <h2>About Me</h2>
-          <p>Sit harum deleniti vero reiciendis maiores. Repellendus molestias laborum aut magnam debitis modi Eligendi delectus ipsam porro facere explicabo eum. Ipsam in excepturi ducimus harum necessitatibus. Accusamus nisi consequatur natus ipsum illo amet accusantium voluptas dicta! Fugit deserunt animi non debitis nam Placeat excepturi eum dolorem nihil amet deserunt Quae.</p>
-        </article>
-
-        <article>
-          <h2>About Me</h2>
-          <p>Sit harum deleniti vero reiciendis maiores. Repellendus molestias laborum aut magnam debitis modi Eligendi delectus ipsam porro facere explicabo eum. Ipsam in excepturi ducimus harum necessitatibus. Accusamus nisi consequatur natus ipsum illo amet accusantium voluptas dicta! Fugit deserunt animi non debitis nam Placeat excepturi eum dolorem nihil amet deserunt Quae.</p>
-        </article>
-
+        <Header />
+        <MissionStatement />
+        <AboutMe />
+        <Packages />
+        <ContactInfo />
       </div>
     )
   }
-
-  getPosts() {
-    const { edges } = this.props.data.allMarkdownRemark
-    return Array.from(edges)
-  }
 }
 
-export const query = graphql`
-  query getPosts {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
-    ) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          html
-          id
-          frontmatter {
-            date
-            path
-            title
-          }
-        }
-      }
-    }
-  }
-`
+// export const query = graphql`
+//   query getPosts {
+//     allMarkdownRemark(
+//       sort: { order: DESC, fields: [frontmatter___date] }
+//       limit: 1000
+//     ) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 250)
+//           html
+//           id
+//           frontmatter {
+//             date
+//             path
+//             title
+//           }
+//         }
+//       }
+//     }
+//   }
+// `
 
 export default IndexPage
