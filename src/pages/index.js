@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 
 const Header = () =>
-  <section>
+  <section className="header">
     <h1 className='title'>
       Lorien Masters
     </h1>

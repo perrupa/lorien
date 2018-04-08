@@ -2,11 +2,12 @@
 @import 'typography';
 @import 'layout';
 
-$link_colour: #081471;
+$dark: #333;
+$light: #EEE;
 
 html,
 a {
-  color: $link_colour;
+  color: $dark;
 }
 
 li {
@@ -23,15 +24,23 @@ img {
   margin-bottom: 1.5em;
 }
 
+.header {
+}
+
 .title {
   z-index: 1;
   margin: 0;
-  margin-bottom: -.5em;
-  text-shadow: 1px 1px #fff;
+  position: relative;
+  top: .5em;
+  padding-right: 1em;
+  text-align: right;
+  overflow: wrap;
 }
 
 .headshot {
-  opacity: 0.7;
+  position: relative;
+  left: 2em;
+  max-height: 60vh;
   max-width: 70%;
 }
 
@@ -40,9 +49,9 @@ img {
   position: relative;
   top: -2em;
   padding: 1em;
-  background-color: map-get($pinks, 1);
+  background-color: darken($dark, 10%);
+  color: $light;
   max-width: 60%;
-  margin: auto;
 }
 
 section {

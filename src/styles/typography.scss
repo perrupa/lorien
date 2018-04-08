@@ -26,7 +26,7 @@ $spectral: 'Spectral';
 )
 
 $title-font: $playfair, sans-serif;
-$body-font: $spectral, sans-serif;
+$body-font: $playfair, sans-serif;
 $code-font: $pt, monospace;
 
 html {
@@ -53,6 +53,7 @@ h1, h2, h3, h4 {
   font-family: $title-font;
   letter-spacing: -1px;
   font-weight: 800;
+  margin-top: .5em;
 }
 
 h1 {
@@ -60,7 +61,8 @@ h1 {
 }
 
 h2 {
-  font-size: 2.827em;
+  // font-size: 2.827em;
+  font-size: 2.327em;
 }
 
 h3 {
