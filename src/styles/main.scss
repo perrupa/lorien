@@ -2,8 +2,9 @@
 @import 'typography';
 @import 'layout';
 
-$link_colour: #333;
+$link_colour: #081471;
 
+html,
 a {
   color: $link_colour;
 }
@@ -26,6 +27,7 @@ img {
   z-index: 1;
   margin: 0;
   margin-bottom: -.5em;
+  text-shadow: 1px 1px #fff;
 }
 
 .headshot {
