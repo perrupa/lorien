@@ -25,33 +25,40 @@ img {
 }
 
 .header {
+  // text-align: center;
 }
 
 .title {
   z-index: 1;
   margin: 0;
   position: relative;
-  top: .5em;
-  padding-right: 1em;
+  top: .25em;
   text-align: right;
+  padding-right: 10%;
   overflow: wrap;
 }
 
 .headshot {
   position: relative;
-  left: 2em;
   max-height: 60vh;
-  max-width: 70%;
 }
 
 .subtitle {
-  font-size: 1.5em;
   position: relative;
+  display: inline;
+  left: 5%;
   top: -2em;
-  padding: 1em;
+  padding: .7em;
+  margin: auto;
   background-color: darken($dark, 10%);
   color: $light;
-  max-width: 60%;
+  line-height: 2;
+  white-space: pre-wrap;
+  font-size: 1.5em;
+
+  @media (min-width: 920px) {
+    left: 20%;
+  }
 }
 
 section {
