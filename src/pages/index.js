@@ -1,64 +1,22 @@
 import React, { Component } from 'react'
+
 import Link from 'gatsby-link'
-
-const Header = () =>
-  <article className="header">
-    <h1 className='title'>
-      Lorien Masters
-    </h1>
-    <img className="headshot" src="images/Lo.jpg" alt="Beautiful young life coach" />
-    <em className='subtitle'>Transformation Life Coach</em>
-  </article>
-
-const MissionStatement = () =>
-  <article>
-    <h2>Mission Statement</h2>
-    <p>I am an expert in overcoming lows, and re-building your self esteem and who you are. I am great at unlocking your subconscious to find out what really is going on & why you feel burnt out and uninspired. I can empower you to feel something, even a small spark to build the excitement back & recommit to your life.</p>
-    <p> I will be your to guide to transform, and guide you to restore your confidence and courage to live your life to its fullest. Realize and manifest the truth of yourself and the greatness you sense inside you, create an extraordinary life, a way to your freedom, to your truth and your whole self.</p>
-  </article>
-
-const AboutMe = () =>
-  <article>
-    <h2>About Me</h2>
-  </article>
-
-const Packages = () =>
-  <article>
-    <h2>Packages</h2>
-    <div>
-      <h3>Package 1</h3>
-    </div>
-    <div>
-      <h3>Package 2</h3>
-    </div>
-    <div>
-      <h3>Package 3</h3>
-    </div>
-  </article>
-
-const ContactInfo = () =>
-  <article>
-    <h2>Let's talk</h2>
-    <ul>
-      <li>
-        <a href="https://www.instagram.com/lorienmasters/?hl=en">Instagram</a>
-      </li>
-      <li>
-        <a href="https://www.facebook.com/lorien.alexandra">Facebook</a>
-      </li>
-    </ul>
-  </article>
+import ContactInfo from 'components/contact-info'
+import Header from 'components/header'
+import AboutMe from 'components/about-me'
+import MissionStatement from 'components/mission-statement'
+import Packages from 'components/packages'
 
 class IndexPage extends Component {
   render() {
     return (
-      <div>
+      <section>
         <Header />
         <MissionStatement />
         <AboutMe />
         <Packages />
         <ContactInfo />
-      </div>
+      </section>
     )
   }
 }
