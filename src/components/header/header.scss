@@ -2,35 +2,11 @@ $dark: #333;
 $light: #EEE;
 
 .header {
+  width: 100%;
+}
+
+.header__image {
+  width: 100%;
+  max-height: 100%;
   max-width: 100%;
-}
-
-.header__title {
-  margin: 0;
-  padding: 0;
-  border-width: 1;
-  font-size: 4em;
-}
-
-.header__headshot {
-  position: relative;
-  max-height: 60vh;
-}
-
-.header__subtitle {
-  position: relative;
-  display: inline;
-  left: 5%;
-  top: -2em;
-  padding: .7em;
-  margin: auto;
-  background-color: darken($dark, 10%);
-  color: $light;
-  line-height: 2;
-  white-space: pre-wrap;
-  font-size: 1.5em;
-
-  @media (min-width: 920px) {
-    left: 20%;
-  }
 }
