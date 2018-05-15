@@ -12,7 +12,6 @@ class IndexPage extends Component {
     return (
       <section>
         <Header />
-        <MissionStatement />
         <AboutMe />
         <Packages />
         <ContactInfo />
