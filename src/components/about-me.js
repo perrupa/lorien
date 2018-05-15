@@ -3,7 +3,10 @@ import './about-me.scss'
 
 const AboutMe = () =>
   <article className='about-me'>
-    <div className="about-me__pretty-face" />
+    <img
+      src='/images/Lo.jpg'
+      className="about-me__pretty-face"
+    />
     <div className="about-me__content">
       <h2>Mission</h2>
       <p>

@@ -3,8 +3,11 @@ $light: #EEE;
 
 .header {
   width: 100%;
-  max-height: 90vh;
+  height: 90vh;
   overflow: hidden;
+  background-image: url(/images/header.png);
+  background-size: cover;
+  background-position: center center;
 }
 
 .header__image {
