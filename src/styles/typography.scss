@@ -1,33 +1,24 @@
 @import 'functions';
 
-$chicle: 'Chicle';
-$oswald: 'Oswald';
-$lato: 'Lato';
-$pt: 'PT Mono';
-$roboto: 'Roboto Mono';
-$raleway: 'Raleway';
-$rubik: 'Rubik';
-$questrial: 'Questrial';
-$playfair: 'Playfair Display';
-$spectral: 'Spectral';
+@font-face {
+    font-family: 'Brilliant Signature 1 Slant';
+    src: url('BrilliantSignature-1Slant.woff2') format('woff2'),
+        url('BrilliantSignature-1Slant.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-//$fonts:
-@include gwf(
-  $chicle,
-  $oswald,
-  $lato,
-  $pt,
-  $playfair,
-  $roboto,
-  $raleway,
-  $rubik,
-  $spectral,
-  $questrial
-)
+@font-face {
+    font-family: 'Brilliant Signature 1';
+    src: url('BrilliantSignature-1Regular.woff2') format('woff2'),
+        url('BrilliantSignature-1Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-$title-font: $playfair, sans-serif;
-$body-font: $playfair, sans-serif;
-$code-font: $pt, monospace;
+
+$title-font: 'Brilliant Signature 1', sans-serif;
+$body-font: Georgia, sans-serif;
 
 html {
   font-family: $body-font;
@@ -44,18 +35,14 @@ p {
   letter-spacing: -0px;
 }
 
-code {
-  font-family: $code-font;
-}
-
 // Headings
 h1, h2, h3, h4 {
   font-family: $title-font;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   font-weight: 800;
   line-height: 1;
   margin: 0;
-  margin-bottom: .6em;
+  padding: .5em;
 }
 
 h1 {
@@ -64,7 +51,7 @@ h1 {
 
 h2 {
   // font-size: 2.827em;
-  font-size: 2.327em;
+  font-size: 3.327em;
 }
 
 h3 {

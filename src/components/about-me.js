@@ -5,7 +5,7 @@ const AboutMe = () =>
   <article className='about-me'>
     <div className="about-me__pretty-face" />
     <div className="about-me__content">
-      <h2>About Me</h2>
+      <h2>Mission</h2>
       <p>
           {`I am a Transformational life coach. My mission is to guide and empower
         you to find love with your most authentic self. I want to help you love yourself
