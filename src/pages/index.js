@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 
 import Link from 'gatsby-link'
-import ContactInfo from 'components/contact-info'
 import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
 import Packages from 'components/packages'
+import Footer from 'components/footer'
 
 class IndexPage extends Component {
   render() {
@@ -15,7 +15,7 @@ class IndexPage extends Component {
         <Intro />
         <AboutMe />
         <Packages />
-        <ContactInfo />
+        <Footer />
       </section>
     )
   }

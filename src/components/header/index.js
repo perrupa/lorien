@@ -1,5 +1,8 @@
 import React from 'react'
+import Link from 'gatsby-link'
 import './header.scss'
 
 export default () =>
-  <header className="header" />
+  <Link to="/">
+    <header className="header" />
+  </Link>
