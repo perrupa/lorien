@@ -6,17 +6,31 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .about-me__pretty-face {
-  flex: 1 1;
-  width: 50%;
-  align-self: center;
+  align-self: end;
+  flex: 1.5 1;
   padding: 0;
   margin: 0;
+
+  img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .about-me__content {
-  flex: 1 1 50%;
-  padding: .8em;
+  flex: 1 0;
+  align-self: center;
+  padding: 1.2em;
 }
+
+// Collapse to columns
+@media (max-width: 1000px) {
+  .about-me {
+    flex-direction: column
+  }
+}
+
