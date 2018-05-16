@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import ContactInfo from 'components/contact-info'
 import Header from 'components/header'
+import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
-import MissionStatement from 'components/mission-statement'
 import Packages from 'components/packages'
 
 class IndexPage extends Component {
@@ -12,6 +12,7 @@ class IndexPage extends Component {
     return (
       <section>
         <Header />
+        <Intro />
         <AboutMe />
         <Packages />
         <ContactInfo />

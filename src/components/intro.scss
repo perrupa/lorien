@@ -1,4 +1,4 @@
-.about-me {
+.intro {
   background-color: #FFF;
   width: 100%;
   max-width: 100%;
@@ -9,7 +9,7 @@
   align-items: flex-start;
 }
 
-.about-me__pretty-face {
+.intro__pretty-face {
   align-self: end;
   flex: 1.5 1;
   padding: 0;
@@ -21,7 +21,7 @@
   }
 }
 
-.about-me__content {
+.intro__content {
   flex: 1 0;
   align-self: center;
   padding: 1.2em;
@@ -29,7 +29,7 @@
 
 // Collapse to columns
 @media (max-width: 1000px) {
-  .about-me {
+  .intro {
     flex-direction: column
   }
 }
