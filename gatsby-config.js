@@ -1,5 +1,5 @@
 module.exports = {
-  // pathPrefix: '/GHreponame',
+  pathPrefix: '/lorien',
   siteMetadata: {
     title: 'Lo Life Coach',
     author: 'Lorien Masters',
