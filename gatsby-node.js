@@ -46,6 +46,7 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
         styles: path.resolve(__dirname, 'src/styles/'),
         components: path.resolve(__dirname, 'src/components/'),
         pages: path.resolve(__dirname, 'src/pages/'),
+        static: path.resolve(__dirname, 'static'),
       }
     }
   })

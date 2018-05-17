@@ -18,8 +18,8 @@ const TemplateWrapper = ({ children }) => {
           { name: 'description', content: '' },
           { name: 'keywords', content: '' },
         ]}
-      />
-
+      >
+      </Helmet>
       <section className='container'>
         {children()}
       </section>
