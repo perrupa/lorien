@@ -42,6 +42,7 @@ const Packages = () =>
       <Card>Package 1</Card>
       <Card>Package 2</Card>
       <Card>Package 3</Card>
+      <Card>Package 4</Card>
     </div>
   </div>
 
