@@ -22,27 +22,38 @@ const Packages = () =>
 
 
           <ul>
-              <li>To truly commit to life & experience a restorative transformation</li>
-              <li>To realize & manifest your calling & unlock the purpose that is within you</li>
-              <li>To create an extraordinary life, to your truth & your whole self</li>
-              <li>To create & live a life that is aligned with your authentic self</li>
-              <li>To transform & re-discover the life you were meant to live</li>
-              <li>To live a life of self love, joy, passion, purpose & meaning</li>
-              <li>To lead a life from a higher level of consciousness, & mindfulness</li>
-              <li>To ignite the spark within & live a more inspired & passion filled life</li>
-              <li>To follow your intuition, & be open to what the universe is trying to give you</li>
-              <li>To be grateful of the life you have, and appreciate all the small things that come</li>
-              <li>Willing and able to devote the time and effort into creating a new future & awakeningyour /soul.</li>
+            <li>To truly commit to life & experience a restorative transformation</li>
+            <li>To realize & manifest your calling & unlock the purpose that is within you</li>
+            <l
+            <li>To create & live a life that is aligned with your authentic self</li>
+            <li>To transform & re-discover the life you were meant to live</li>
+            <li>To live a life of self love, joy, passion, purpose & meaning</li>
+        
+            <li>To ignite the spark within & live a more inspired & mindful life</li>
+            <li>To follow your intuition, & be open to what the universe is trying to give you</li>
+            <li>To be grateful of the life you have, and willing to devote the time and effort into creating a new future.</li>
           </ul>
         </div>
       </article>
     </div>
 
     <div className="package-background">
-      <Card>Package 1</Card>
-      <Card>Package 2</Card>
-      <Card>Package 3</Card>
-      <Card>Package 4</Card>
+      <div className="package-container">
+        <Card>
+          <h3>Rediscover Us (Group)</h3>
+        </Card>
+        <Card>
+          <h3>Rediscover You</h3>
+        </Card>
+      </div>
+      <div className="package-container">
+        <Card>
+          <h3>Authentic Me</h3>
+        </Card>
+        <Card>
+          <h3>Total Life Transformation</h3>
+        </Card>
+      </div>
     </div>
   </div>
 
