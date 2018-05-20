@@ -24,11 +24,10 @@ const Packages = () =>
           <ul>
             <li>To truly commit to life & experience a restorative transformation</li>
             <li>To realize & manifest your calling & unlock the purpose that is within you</li>
-            <l
             <li>To create & live a life that is aligned with your authentic self</li>
             <li>To transform & re-discover the life you were meant to live</li>
             <li>To live a life of self love, joy, passion, purpose & meaning</li>
-        
+
             <li>To ignite the spark within & live a more inspired & mindful life</li>
             <li>To follow your intuition, & be open to what the universe is trying to give you</li>
             <li>To be grateful of the life you have, and willing to devote the time and effort into creating a new future.</li>
@@ -41,17 +40,22 @@ const Packages = () =>
       <div className="package-container">
         <Card>
           <h3>Rediscover Us (Group)</h3>
+          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
         </Card>
         <Card>
           <h3>Rediscover You</h3>
+          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
+          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
         </Card>
       </div>
       <div className="package-container">
         <Card>
           <h3>Authentic Me</h3>
+          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
         </Card>
         <Card>
           <h3>Total Life Transformation</h3>
+          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
         </Card>
       </div>
     </div>

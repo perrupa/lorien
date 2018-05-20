@@ -2,12 +2,16 @@
   background-color: white;
 }
 .package-background {
-  display: flex;
-  justify-content: space-around;
-  padding: 2em;
-  background-image: url(/static/images/leaves.jpg);
+  background-image: url("../../static/images/leaves.jpg");
   background-position: center;
   background-size: cover;
+}
+
+.package-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1em;
 
   * {
     margin: 1em;
