@@ -6,7 +6,17 @@ html {
 
 article {
   display: block;
+  overflow: auto;
   margin: auto;
   max-width: 70vw;
   padding-bottom: 2em;
+
+  // Collapse to columns
+  @media (max-width: 1000px) {
+    max-width: none;
+  }
+
+  p {
+    margin: 1em 2em;
+  }
 }
