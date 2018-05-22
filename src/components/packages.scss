@@ -5,16 +5,11 @@
   background-image: url("../../static/images/leaves.jpg");
   background-position: center;
   background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .package-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 1em;
 
-  * {
-    margin: 1em;
-    flex: 1 1;
-  }
 }

@@ -1,15 +1,23 @@
 .card {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 1em;
   padding: 1em;
+  flex: 1 1 40%;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
   text-size: 1em;
+}
 
-  h3 {
-    font-family: Georgia, sans-serif;
-    font-size: 1.3em;
-    margin: 0;
-    padding: 0;
-  }
+.card-title {
+  font-family: Georgia, sans-serif;
+  font-size: 1.3em;
+  margin: 0;
+  padding: 0;
+}
+
+.read-more {
+  text-align: center;
 }
