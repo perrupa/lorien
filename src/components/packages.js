@@ -39,23 +39,22 @@ const Packages = () =>
     <div className="package-background">
       <div className="package-container">
         <Card>
-          <h3>Rediscover Us (Group)</h3>
-          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
+          <h3>Rediscover You</h3>
+          <p>Feeling lost or a lack of self fulfillment? With this package we will strengthen your connection with your true self.  Begin to expand and deepen your self awareness and bring purpose back to your life.</p>
         </Card>
         <Card>
-          <h3>Rediscover You</h3>
-          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
-          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
+          <h3>Rediscover Us (Group)</h3>
+          <p>As a group we will explore our inner goddess.  We will strengthen our connection with our authentic selves through expanding our knowledge on our thoughts and emotions to have a better understanding on how to bring purpose and joy back into our lives.</p>
         </Card>
       </div>
       <div className="package-container">
         <Card>
-          <h3>Authentic Me</h3>
-          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
+          <h3>Awaken Your Authentic Self</h3>
+          <p>This program empowers you to reconnect with the deepest part of your essential self. Here you will learn who you are and what you need to feel purpose and fulfillment, and let go of the beliefs and thoughts that no longer serve you.</p>
         </Card>
         <Card>
           <h3>Total Life Transformation</h3>
-          <p>Elit ab quidem ducimus rem explicabo! Molestias autem tempore blanditiis laudantium quo ducimus Officia illum suscipit enim id nisi Eos natus ullam ut mollitia maiores.</p>
+          <p>Through this program you will rediscover your authentic self.  We will go deep into your belief system and question behaviour patterns. Through this program you will learn to build better coping strategies, a stronger sense of self-worth, more confidence, and will learn to create a fulfilled life.</p>
         </Card>
       </div>
     </div>
