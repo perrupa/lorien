@@ -1,8 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import headerImg from 'static/images/header.png'
 import './header.scss'
 
 export default () =>
-  <Link to="/">
-    <header className="header" />
-  </Link>
+  <div className="header">
+    <Link to="/">
+      <img src={headerImg}
+        className="header__image"
+        alt="Lo Life Coach: Rediscover you"
+      />
+    </Link>
+  </div>
