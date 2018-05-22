@@ -5,7 +5,7 @@ import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
 import Packages from 'components/packages'
-import SubscribeLink from 'components/subscribe-button'
+import NewsletterCTA from 'components/newsletter-cta'
 import Footer from 'components/footer'
 
 class IndexPage extends Component {
@@ -16,19 +16,7 @@ class IndexPage extends Component {
         <Intro />
         <AboutMe />
         <Packages />
-
-        <article>
-          <h3>Inspiring E-mails</h3>
-          <p>
-            Consectetur ex vel temporibus molestiae deleniti, adipisci optio? Mollitia sit laborum suscipit iure nulla numquam Suscipit qui assumenda velit dolores eveniet!
-          </p>
-          <center>
-            <p>
-              <SubscribeLink>Subscribe to my E-mail list</SubscribeLink>
-            </p>
-          </center>
-        </article>
-
+        <NewsletterCTA />
         <Footer />
       </section>
     )

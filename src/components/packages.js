@@ -40,19 +40,19 @@ const Packages = () =>
         <Card
           title="Rediscover You"
           body="Feeling lost or a lack of self fulfillment? With this package we will strengthen your connection with your true self.  Begin to expand and deepen your self awareness and bring purpose back to your life."
-          url="/total-life-transformation"/>
+          url="/rediscover-you" />
         <Card
           title="Rediscover Us (Group"
           body="As a group we will explore our inner goddess.  We will strengthen our connection with our authentic selves through expanding our knowledge on our thoughts and emotions to have a better understanding on how to bring purpose and joy back into our lives."
-          url="/total-life-transformation"/>
+          url="/rediscover-us" />
         <Card
           title="Awaken Your Authentic Self"
           body="This program empowers you to reconnect with the deepest part of your essential self. Here you will learn who you are and what you need to feel purpose and fulfillment, and let go of the beliefs and thoughts that no longer serve you."
-          url="/total-life-transformation"/>
+          url="/awaken-your-authentic-self" />
         <Card
           title="Total Life Transformation"
           body="Through this program you will rediscover your authentic self.  We will go deep into your belief system and question behaviour patterns. Through this program you will learn to build better coping strategies, a stronger sense of self-worth, more confidence, and will learn to create a fulfilled life."
-          url="/total-life-transformation"/>
+          url="/total-life-transformation" />
     </div>
   </div>
 
