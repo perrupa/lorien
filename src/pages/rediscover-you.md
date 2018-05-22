@@ -1,8 +1,8 @@
---
+---
 path: "/rediscover-you"
-title: "Rediscover You "
-date: 2018-05-21
---
+title: "Rediscover You"
+date: "2018-05-21"
+----
 
 # Rediscover You
 ## 6 week Intensive

@@ -1,8 +1,8 @@
---
+---
 path: "/total-life-transformation"
 title: "Total Life Transformation"
-date: 2018-05-21
---
+date: "2018-05-21"
+---
 
 # Total Life Transformation
 ## 6 month program

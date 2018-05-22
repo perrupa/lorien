@@ -1,8 +1,8 @@
---
+---
 path: "/rediscover-us"
-title: "Rediscover Us "
-date: 2018-05-21
---
+title: "Rediscover Us"
+date: "2018-05-21"
+---
 
 # Rediscover Us
 ## Group intensive 6 week

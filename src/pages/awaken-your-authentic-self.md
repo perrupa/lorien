@@ -1,8 +1,8 @@
---
+---
 path: "/awaken-your-authentic-self"
 title: "Awaken your Authentic self"
-date: 2018-05-21
---
+date: "2018-05-21"
+---
 
 # Awaken your Authentic self
 ## 12 week program

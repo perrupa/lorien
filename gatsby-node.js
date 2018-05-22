@@ -1,4 +1,5 @@
 const path = require("path")
+
 const query = `{
   allMarkdownRemark(
     sort: { order: DESC, fields: [frontmatter___date] }
