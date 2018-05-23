@@ -20,9 +20,9 @@ const TemplateWrapper = ({ children }) => {
         ]}
       >
       </Helmet>
-      <section className='container'>
+      <div className='container'>
         {children()}
-      </section>
+      </div>
     </div>
   )
 }

@@ -4,6 +4,13 @@ $light: #EEE;
 .header {
   line-height: 0;
 }
+.header--small {
+  padding: 1em;
+  background-color: #333;
+}
+.header__logo {
+  height: 3em;
+}
 
 .header__image {
   width: 100%;

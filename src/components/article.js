@@ -1,5 +1,7 @@
 import React from 'react'
 import 'styles/post.scss'
+import {SmallHeader} from 'components/header'
+import GetInTouch from 'components/get-in-touch'
 
 export default function Template({ data }) {
   const { markdownRemark: { frontmatter, html } } = data
@@ -7,13 +9,15 @@ export default function Template({ data }) {
 
   return (
     <div className="article">
-      <div class="article__container">
+      <div className="article__container">
+        <SmallHeader />
         <h2 className="article__title">
           {frontmatter.title}
         </h2>
         <div className="article__content"
           dangerouslySetInnerHTML={{ __html: html }}
         />
+        <GetInTouch />
       </div>
     </div>
   )

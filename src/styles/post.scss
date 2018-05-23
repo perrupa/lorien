@@ -1,21 +1,38 @@
 @import 'typography';
 
 .article {
-  padding: 1em;
+  display: flex;
+  min-height: 100vh;
+  background-image: url(../../static/images/leaves.jpg);
   overflow: auto;
   text-align: left;
 
   h1, h2, h3, h4, h5 {
     font-family: $body-font;
-    font-size: 1.5em;
+    // font-size: 1.5em;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap-reverse;
+  }
+}
+
+.article__container {
+  display: flex;
+  background-color: #fff;
+  margin: 3em;
+  padding-bottom: 1em;
+  flex: 1 1 auto;
+  flex-direction: column;
+}
+
+.article__content {
+  padding: 2em;
+  @media (max-width: 800px) {
+    margin: 1em;
+    padding: 1em;
   }
 }
 
 .article__title {
   font-size: 3em;
-  margin-top: 0;
+  margin-bottom: 0;
 }
 
