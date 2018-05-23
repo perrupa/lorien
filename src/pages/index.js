@@ -5,6 +5,7 @@ import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
 import Packages from 'components/packages'
+import SlideShow from 'components/slideshow'
 import NewsletterCTA from 'components/newsletter-cta'
 import Footer from 'components/footer'
 
@@ -16,6 +17,7 @@ class IndexPage extends Component {
         <Intro />
         <AboutMe />
         <Packages />
+        <SlideShow />
         <NewsletterCTA />
         <Footer />
       </section>

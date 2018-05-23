@@ -8,7 +8,7 @@ const Card = ({ title = '', body = '', url = '' }) =>
       <h3 className="card-title">{title}</h3>
       <p>{body}</p>
     </div>
-    <a className="read-more" href={url}>Learn More</a>
+    <Link className="read-more" to={url}>Learn More</Link>
   </div>
 
 export default Card
