@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import headerImg from 'static/images/header.png'
+import headerImg from 'static/images/header.jpg'
 import logoType from 'static/images/logotype-white.svg'
 import './header.scss'
 
