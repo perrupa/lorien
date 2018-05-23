@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 const GetInTouch = () =>
-  <center>
+  <center style={{ marginBottom: '1em' }}>
     <p>
       <a href="mailto:lorien@lolifecoach.com">
         Let's work together

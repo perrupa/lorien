@@ -2,6 +2,7 @@ import React from 'react'
 import 'styles/post.scss'
 import {SmallHeader} from 'components/header'
 import GetInTouch from 'components/get-in-touch'
+import Footer from 'components/footer'
 
 export default function Template({ data }) {
   const { markdownRemark: { frontmatter, html } } = data
@@ -18,6 +19,7 @@ export default function Template({ data }) {
           dangerouslySetInnerHTML={{ __html: html }}
         />
         <GetInTouch />
+        <Footer />
       </div>
     </div>
   )
