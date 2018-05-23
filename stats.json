@@ -1,8 +1,16 @@
 {
   "assetsByChunkName": {
+    "path---awaken-your-authentic-self": [
+      "path---awaken-your-authentic-self-52f97e3c6c165d7c4909.js",
+      "path---awaken-your-authentic-self-52f97e3c6c165d7c4909.js.map"
+    ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-449cd0e3d36d48d7b64d.js",
-      "component---src-pages-index-js-449cd0e3d36d48d7b64d.js.map"
+      "component---src-pages-index-js-1af62d13bf406979a279.js",
+      "component---src-pages-index-js-1af62d13bf406979a279.js.map"
+    ],
+    "path---total-life-transformation": [
+      "path---total-life-transformation-f33dc13a2f66f20cb8c5.js",
+      "path---total-life-transformation-f33dc13a2f66f20cb8c5.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -12,17 +20,29 @@
       "path---who-i-am-a0e39f21c11f6a62c5ab.js",
       "path---who-i-am-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---rediscover-you": [
+      "path---rediscover-you-919009cd6f5222582615.js",
+      "path---rediscover-you-919009cd6f5222582615.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-cb4e2aeef9e4e7cbbcc4.js",
-      "component---src-layouts-index-js-cb4e2aeef9e4e7cbbcc4.js.map"
+      "component---src-layouts-index-js-69186e5b3a488984db3c.js",
+      "component---src-layouts-index-js-69186e5b3a488984db3c.js.map"
     ],
     "component---src-pages-who-i-am-js": [
-      "component---src-pages-who-i-am-js-3534b2172b1458b47e03.js",
-      "component---src-pages-who-i-am-js-3534b2172b1458b47e03.js.map"
+      "component---src-pages-who-i-am-js-02aaca16f287a4aa91de.js",
+      "component---src-pages-who-i-am-js-02aaca16f287a4aa91de.js.map"
+    ],
+    "component---src-components-article-js": [
+      "component---src-components-article-js-cc26bd16d02be66afdb4.js",
+      "component---src-components-article-js-cc26bd16d02be66afdb4.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
       "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---rediscover-us": [
+      "path---rediscover-us-698dfe943ae03b502073.js",
+      "path---rediscover-us-698dfe943ae03b502073.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -37,8 +57,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-64ccb37eb5c9cc26645c.js",
-      "app-64ccb37eb5c9cc26645c.js.map"
+      "app-fb49ba4a87272958b5c9.js",
+      "app-fb49ba4a87272958b5c9.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
