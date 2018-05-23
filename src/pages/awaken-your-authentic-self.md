@@ -4,7 +4,6 @@ title: "Awaken your Authentic self"
 date: "2018-05-21"
 ---
 
-# Awaken your Authentic self
 ## 12 week program
 
 This program empowers you to reconnect with the deepest part

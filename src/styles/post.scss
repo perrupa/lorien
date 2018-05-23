@@ -1,17 +1,21 @@
-@import 'colours';
+@import 'typography';
 
-.blog-post-container {
+.article {
+  padding: 1em;
+  overflow: auto;
   text-align: left;
+
+  h1, h2, h3, h4, h5 {
+    font-family: $body-font;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+  }
 }
 
-.blog-post__title {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap-reverse;
-}
-
-.blog-post__date {
-  font-size: .5em;
-  vertical-align: top;
+.article__title {
+  font-size: 3em;
+  margin-top: 0;
 }
 

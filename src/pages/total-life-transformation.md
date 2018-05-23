@@ -4,7 +4,6 @@ title: "Total Life Transformation"
 date: "2018-05-21"
 ---
 
-# Total Life Transformation
 ## 6 month program
 
 Through this program you will rediscover your authentic self.

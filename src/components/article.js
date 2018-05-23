@@ -6,13 +6,15 @@ export default function Template({ data }) {
   const date = new Date(Date.parse(frontmatter.date))
 
   return (
-    <div className="blog-post-container">
-      <h2 className="blog-post__title">
-        {frontmatter.title}
-      </h2>
-      <div className="blog-post-content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
+    <div className="article">
+      <div class="article__container">
+        <h2 className="article__title">
+          {frontmatter.title}
+        </h2>
+        <div className="article__content"
+          dangerouslySetInnerHTML={{ __html: html }}
+        />
+      </div>
     </div>
   )
 }
