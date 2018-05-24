@@ -4,7 +4,7 @@ title: "Rediscover Us"
 date: "2018-05-21"
 ---
 
-## Group intensive 6 week
+#### Group intensive 6 week
 
 As a group of 4-6 we will explore our inner goddess.
 We will strengthen our connection with our authentic selves

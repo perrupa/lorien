@@ -4,7 +4,7 @@ title: "Rediscover You"
 date: "2018-05-21"
 ---
 
-## 6 week Intensive
+#### 6 week Intensive
 
 Feeling lost or a lack of self fulfillment? With this package we will strengthen your connection with your true self.  Begin to expand and deepen your self awareness and bring purpose back to your life.
 
