@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
-import lo from 'static/images/Lo.jpg'
 import './intro.scss'
 
 const Intro = () =>
   <article className='intro'>
     <div className="intro__pretty-face">
-      <img src={lo} />
+      <img className="intro__backup-photo" src="../../static/images/Lo.jpg" alt="" />
     </div>
+
     <p className="intro__content">
         {`I'm Lo, a transformational life coach. My mission is to guide and empower
       you to find love with your most authentic self. I want to help you love yourself

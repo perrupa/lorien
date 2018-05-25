@@ -6,32 +6,37 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
 }
 
 .intro__pretty-face {
-  align-self: end;
   flex: 1.5 1;
   padding: 0;
   margin: 0;
 
-  img {
-    display: block;
-    width: 100%;
-  }
+  background-image: url(../../static/images/Lo.jpg);
+  background-position: right;
+  background-size: cover;
 }
 
 .intro__content {
   font-size: 1.2em;
-  flex: 1 0;
+  flex: 1 0 0;
   align-self: center;
   padding: 1.2em;
 }
 
-// Collapse to columns
-@media (max-width: 1000px) {
-  .intro {
-    flex-direction: column
-  }
+.intro__backup-photo {
+  display: none;
 }
 
+// Collapse to columns
+@media (max-width: 1000px) {
+  .intro__backup-photo {
+    display: block;
+    height: 60vh;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+}
