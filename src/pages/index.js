@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
+import BlogSection from 'components/blog-section'
 import Packages from 'components/packages'
 import SlideShow from 'components/slideshow'
 import NewsletterCTA from 'components/newsletter-cta'
@@ -16,6 +17,7 @@ class IndexPage extends Component {
         <Header />
         <Intro />
         <AboutMe />
+        <BlogSection />
         <Packages />
         <SlideShow />
         <NewsletterCTA />
