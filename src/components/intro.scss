@@ -30,7 +30,13 @@
 }
 
 // Collapse to columns
-@media (max-width: 1000px) {
+@media (min-width: 1000px) {
+  .intro__content {
+    font-size: 1.2em
+  }
+}
+
+@mixin use_block_image() {
   .intro__backup-photo {
     display: block;
     height: 60vh;
@@ -38,5 +44,12 @@
 
   .intro {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) { @include use_block_image(); }
+@media (min-width: 1300px) {
+  .intro__pretty-face {
+    min-height: 50vh;
   }
 }
