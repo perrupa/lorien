@@ -22,18 +22,20 @@ const query = `{
 
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
-  const blogPostTemplate = path.resolve('src/components/article.js')
-  return graphql(query).then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors)
-    }
-    result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {}, // additional data can be passed via context
-      })
+  const blogPostTemplate = path.resolve('src/layouts/article-layout.js')
+
+  const createPageFromNode = ({ node }) =>
+    createPage({
+      path: node.frontmatter.path,
+      component: blogPostTemplate,
+      context: {}, // additional data can be passed via context
     })
+
+  return graphql(query).then(({errors, data}) => {
+    if (errors) {
+      return Promise.reject(errors)
+    }
+    data.allMarkdownRemark.edges.forEach(createPageFromNode)
   })
 }
 
