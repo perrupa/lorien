@@ -2,6 +2,7 @@
 path: "/who-i-am"
 title: "Who I am"
 date: "2018-05-21"
+header_img: /images/smiling-sears-pose.jpg
 ---
 
 I am a Transformational Life Coach here to support and empower women to find self-love and rediscover themselves. I am an expert in overcoming the low, thriving on the highs, and  rebuilding  confidence, and a sense of self. With you,  we will unlock  the  hidden thought patterns holding you back in life and leaving you burnt out and uninspired.  You will be empowered  to feel a stronger connection to yourself, so you can regain the excitement and  self-commitment that  makes life wonderful

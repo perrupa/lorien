@@ -4,7 +4,11 @@ import Article from 'components/article'
 export default function Template({ data }) {
   const { markdownRemark: { frontmatter, html } } = data
 
-  return <Article title={frontmatter.title} html={html} />
+  return <Article
+    title={frontmatter.title}
+    html={html}
+    header={frontmatter.header_img}
+  />
 }
 
 export const pageQuery = graphql`
@@ -16,6 +20,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        header_img
       }
     }
   }

@@ -14,6 +14,7 @@ const query = `{
           date
           path
           title
+          header_img
         }
       }
     }

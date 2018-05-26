@@ -5,11 +5,13 @@ $light: #EEE;
   line-height: 0;
 }
 .header--small {
+  text-align: left;
   padding: 1em;
   background-color: #333;
 }
 .header__logo {
   height: 3em;
+  margin-left: 1em;
 }
 
 .header__image {
