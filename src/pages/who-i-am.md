@@ -4,8 +4,6 @@ title: "Who I am"
 date: "2018-05-21"
 ---
 
-## Who I am
-
 I am a Transformational Life Coach here to support and empower women to find self-love and rediscover themselves. I am an expert in overcoming the low, thriving on the highs, and  rebuilding  confidence, and a sense of self. With you,  we will unlock  the  hidden thought patterns holding you back in life and leaving you burnt out and uninspired.  You will be empowered  to feel a stronger connection to yourself, so you can regain the excitement and  self-commitment that  makes life wonderful
 
 I know this can be done because I have been there. A few years ago, I was in the darkest place of my life. The anxiety of surviving an abusive relationship years prior began to arise. I had a career that on paper was amazing, however not the one I saw for myself any longer. My mental health and self worth we're at an all time low. Depression and anxiety were consuming my life. I was unmotivated, stuck and and realized I had no passions of my own anymore. I had become so consumed by trying to make everyone else in my life happy, and making them my first priority, that I had lost sight of what made me happy. I realized I hadn’t done anything truly for myself in a long time. I remember waking up one morning and thinking, is this it? Will I not feel bliss again?
