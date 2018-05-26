@@ -4,11 +4,11 @@ import './card.scss'
 
 const Card = ({ title = '', body = '', url = '' }) =>
   <div className='card'>
-    <div className="card-body">
-      <h3 className="card-title">{title}</h3>
-      <p>{body}</p>
+    <div className="card__body">
+      <h3 className="card__title">{title}</h3>
+      <p className="card__body-text">{body}</p>
     </div>
-    <Link className="read-more" to={url}>Learn More</Link>
+    <Link to={url}>Learn More</Link>
   </div>
 
 export default Card

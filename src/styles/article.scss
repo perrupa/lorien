@@ -8,6 +8,7 @@
   text-align: left;
 
   h1, h2, h3, h4, h5 {
+    margin: -1em 0 2em;
     font-family: $body-font;
     display: flex;
   }
@@ -15,13 +16,12 @@
   .article__title {
     text-align: left;
     font-size: 3em;
-    margin-bottom: 0;
+    margin: .5em .5em -.5em;
   }
 }
 
 .article__header-img {
   width: 100%;
-
 }
 
 .article__container {

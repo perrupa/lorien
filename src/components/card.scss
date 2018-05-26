@@ -11,16 +11,17 @@
   text-size: 1em;
 }
 
-.card-title {
+.card__title {
   font-family: Georgia, sans-serif;
   font-size: 1.3em;
   margin: 0;
   padding: 0;
 }
 
-.card-body {
+.card__body {
   margin: 0 .5em;
 }
-.read-more {
-  text-align: center;
+
+.card__body-text {
+  font-size: .9em;
 }
