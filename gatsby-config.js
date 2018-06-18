@@ -12,6 +12,16 @@ module.exports = {
         name: "pages",
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-119894751-1",
+        head: false,
+        anonymize: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["localhost"],
+      },
+    },
     'gatsby-transformer-remark',
     `gatsby-plugin-sass`,
     'gatsby-plugin-catch-links',
