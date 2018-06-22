@@ -17,15 +17,15 @@ and thoughts that no longer serve you.
 
 #### What is included:
 
--A Solution to support you to be able to speak and lead your life from the heart. el whole.
--The support of a female tribe going on the same journey as you
--6 weekly meetings via phone, Skype, Zoom etc)
--First and last meeting will be in person
--Unlimited Support in a private Facebook group with your tribe along w/ myself
--6 week methodology + homework and follow up
--weekly focus on specific themes to identify, grow and live in purpose
--Tools to help maintain progress and continue your journey after coaching
--Lead meditation and visioning exercises 
+- A Solution to support you to be able to speak and lead your life from the heart. el whole.
+- The support of a female tribe going on the same journey as you
+- 6 weekly meetings via phone, Skype, Zoom etc)
+- First and last meeting will be in person
+- Unlimited Support in a private Facebook group with your tribe along w/ myself
+- 6 week methodology + homework and follow up
+- weekly focus on specific themes to identify, grow and live in purpose
+- Tools to help maintain progress and continue your journey after coaching
+- Lead meditation and visioning exercises 
 
 
 
