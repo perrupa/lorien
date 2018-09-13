@@ -9,10 +9,12 @@ const Intro = () =>
 
     <p className="intro__content">
         {`I'm Lo, a transformational life coach. My mission is to guide and empower
-      you to find love with your most authentic self. I want to help you love yourself
-      and share your story so you know that you’re not alone. I want to encourage
-      you to find and nurture whatever it is that’s special about you. Together
-      we will build a healthy sense of self-esteem and self-love.`}
+      you to find love with your most authentic self. Together we will build a healthy 
+      sense of self-esteem and self-love by`}
+      <ul>
+        <li>Sharing your story and learning you’re not alone</li>
+        <li>Finding out what makes you special and nurturing it</li>
+      </ul>
     </p>
   </article>
 
