@@ -1,10 +1,19 @@
 import React from 'react'
-import profileImg from '../../static/images/smiling-profile.jpg'
+import Link from 'gatsby-link'
 
-export default function BlogSection(props) {
+const PostList = ({ posts = [] }) => (
+  <ul>
+    {posts.map(post =>
+      <li><Link to={post.frontmatter.path}>{post.frontmatter.title}</Link></li>
+    )}
+  </ul>
+)
+
+export default function BlogSection({ posts = [] }) {
   return (
     <div className="">
-      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
+      <h1>POSTS</h1>
+      <PostList posts={posts} />
     </div>
   )
 }

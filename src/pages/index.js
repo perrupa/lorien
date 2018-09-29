@@ -12,12 +12,23 @@ import Footer from 'components/footer'
 
 class IndexPage extends Component {
   render() {
+    // const posts = [
+    //   {frontmatter: {title: 'Authenticity', path: '/posts/authenticity' }},
+    //   {frontmatter: {title: 'Post number 2', path: '/posts/second-post' }},
+    // ]
+
+    const { data: { allMarkdownRemark: { edges } } } = this.props
+
+    const posts =
+      Array.from(edges)
+        .map(({node}) => node)
+
     return (
       <section>
         <Header />
         <Intro />
         <AboutMe />
-        <BlogSection />
+        <BlogSection posts={ posts } />
         <Packages />
         <SlideShow />
         <NewsletterCTA />
@@ -27,26 +38,26 @@ class IndexPage extends Component {
   }
 }
 
-// export const query = graphql`
-//   query getPosts {
-//     allMarkdownRemark(
-//       sort: { order: DESC, fields: [frontmatter___date] }
-//       limit: 1000
-//     ) {
-//       edges {
-//         node {
-//           excerpt(pruneLength: 250)
-//           html
-//           id
-//           frontmatter {
-//             date
-//             path
-//             title
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
+export const query = graphql`
+  query getPosts {
+    allMarkdownRemark(
+      sort: { order: DESC, fields: [frontmatter___date] }
+      limit: 1000
+    ) {
+      edges {
+        node {
+          excerpt(pruneLength: 250)
+          html
+          id
+          frontmatter {
+            date
+            path
+            title
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage
