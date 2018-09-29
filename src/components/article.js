@@ -11,9 +11,6 @@ const Article = ({ title, html, header, showCTA = true}) =>
       { header ?
         <img className="article__header-img" src={header} alt={title} />
         : null }
-      <h2 className="article__title">
-        {title}
-      </h2>
       <div className="article__content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
