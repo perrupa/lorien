@@ -1,0 +1,55 @@
+.intro {
+  background-color: #FFF;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro__pretty-face {
+  flex: 1.5 1;
+  padding: 0;
+  margin: 0;
+
+  background-image: url(../../../static/images/Lo.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.intro__content {
+  font-size: 1.2em;
+  flex: 1 0 0;
+  align-self: center;
+  padding: 1.2em;
+}
+
+.intro__backup-photo {
+  display: none;
+}
+
+// Collapse to columns
+@media (min-width: 1000px) {
+  .intro__content {
+    font-size: 1.2em
+  }
+}
+
+@mixin use_block_image() {
+  .intro__backup-photo {
+    display: block;
+    height: 60vh;
+  }
+
+  .intro {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1100px) { @include use_block_image(); }
+@media (min-width: 1300px) {
+  .intro__pretty-face {
+    min-height: 50vh;
+  }
+}

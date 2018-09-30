@@ -1,18 +1,26 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import Card from 'components/card'
+import profileImg from '../../static/images/beach-lo-in-profile.jpg'
 
 const PostList = ({ posts = [] }) => (
-  <ul>
+  <div className="blog-post__container">
     {posts.map(post =>
-      <li><Link to={post.frontmatter.path}>{post.frontmatter.title}</Link></li>
+      <Card
+        className="blog-post__summary"
+        title={post.frontmatter.title}
+        body={post.excerpt}
+        path={post.frontmatter.path}
+      />
     )}
-  </ul>
+  </div>
 )
 
 export default function BlogSection({ posts = [] }) {
   return (
     <div className="">
-      <h1>POSTS</h1>
+      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
+      <h3>Blog</h3>
       <PostList posts={posts} />
     </div>
   )
