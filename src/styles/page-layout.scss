@@ -1,6 +1,6 @@
 @import 'typography';
 
-.article {
+.layout-container {
   display: flex;
   min-height: 100vh;
   overflow: auto;
@@ -18,7 +18,7 @@
   h3 { font-size: 1.5em; }
   h4 { font-size: 1em; }
 
-  .article__title {
+  .layout-container__title {
     text-align: left;
     font-size: 2em;
     margin: .5em .5em -.5em;
@@ -35,14 +35,18 @@
   max-height: 65vh;
 }
 
-.article__container {
+.layout-container__header-img {
+  width: 100%;
+}
+
+.layout-container__container {
   display: flex;
   background-color: #fff;
   flex: 1 1 auto;
   flex-direction: column;
 }
 
-.article__content {
+.layout-container__content {
   padding: 2em;
 
   @media (max-width: 800px) {
@@ -51,7 +55,7 @@
   }
 }
 
-.article__content img {
+.layout-container__content img {
   width: calc(100% + 4em);
   margin: 1em -2em;
 }

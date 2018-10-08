@@ -1,0 +1,10 @@
+.blog-post__container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.blog-post__summary {
+  flex: 1;
+  flex-basis: 35%;
+}

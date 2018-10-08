@@ -23,3 +23,8 @@ export const SmallHeader = () =>
     </Link>
   </div>
 
+export const ImageHeader = ({ title = '', header = null }) =>
+  header ?
+    <img className="layout-container__header-img" src={header} alt={title} />
+    : null
+

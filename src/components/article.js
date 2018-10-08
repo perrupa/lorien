@@ -1,5 +1,6 @@
 import React from 'react'
-import 'styles/article.scss'
+import 'styles/page-layout.scss'
+import LayoutContainer from '../layouts/page-layout'
 import {SmallHeader} from 'components/header'
 import GetInTouch from 'components/get-in-touch'
 import Footer from 'components/footer'
