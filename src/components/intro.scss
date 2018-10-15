@@ -47,9 +47,12 @@
   }
 }
 
-@media (max-width: 1100px) { @include use_block_image(); }
-@media (min-width: 1300px) {
+@media (max-width: 1100px) {
+  @include use_block_image();
+}
+
+@media (min-width: 1000px) {
   .intro__pretty-face {
-    min-height: 50vh;
+    min-height: 70vh;
   }
 }
