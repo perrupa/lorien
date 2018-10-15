@@ -13,9 +13,14 @@
   padding: 0;
   margin: 0;
 
-  background-image: url(../../static/images/Lo.jpg);
-  background-position: right;
-  background-size: cover;
+  background-image:    url(../../static/images/Lo.jpg);
+  background-size:     contain;
+  background-repeat:   no-repeat;
+  background-position: top;
+
+  @media (min-width: 1000px) {
+    min-height: 70vh;
+  }
 }
 
 .intro__content {
@@ -49,10 +54,4 @@
 
 @media (max-width: 1100px) {
   @include use_block_image();
-}
-
-@media (min-width: 1000px) {
-  .intro__pretty-face {
-    min-height: 70vh;
-  }
 }
