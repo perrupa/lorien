@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../../static/images/beach-lo-in-profile.jpg'
+import profileImg from '../../static/images/smiling-profile.jpg'
 
 export default function BlogSection(props) {
   return (
