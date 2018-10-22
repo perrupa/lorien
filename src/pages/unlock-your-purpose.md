@@ -1,6 +1,6 @@
 ---
-path: "/rediscover-you"
-title: "Rediscover You"
+path: "/unlock-your-purpose"
+title: "Unlock Your Purpose"
 date: "2018-05-21"
 ---
 
@@ -10,7 +10,7 @@ Feeling lost or a lack of self fulfillment? With this package we will strengthen
 
 What is included:
 
--  Life assessment call (free assessment - 45min)
+- Life assessment call (free assessment - 45min)
 - 6 weekly meetings via phone, Skype, Zoom etc)
 - Unlimited Support via phone, email, text or messenger
 - 6 week methodology + homework & follow up
