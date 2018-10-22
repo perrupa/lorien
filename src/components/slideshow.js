@@ -7,7 +7,7 @@ export default () =>
       frameBorder="0"
       width="960"
       height="569"
-      allowFullScreen="true"
+      allowFullScreen={ true }
       style={{ width: '100%' }}
     ></iframe>
   </div>
