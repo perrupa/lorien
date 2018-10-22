@@ -1,7 +1,7 @@
 ---
 title: Why Life Coaching?
 path: '/posts/why-coaching'
-header_img: ''
+image: /images/smiling-sears-pose.jpg
 date: 2018-07-29
 ---
 

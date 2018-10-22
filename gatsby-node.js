@@ -14,8 +14,8 @@ const query = `{
           date
           path
           title
-          header_img
           show_cta
+          image
         }
       }
     }

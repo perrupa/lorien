@@ -1,7 +1,7 @@
 ---
 title: My inner voice is my own worst enemy!
 path: '/posts/inner-voice'
-header_img: ''
+image: /images/smiling-sears-pose.jpg
 date: 2018-07-29
 ---
 
