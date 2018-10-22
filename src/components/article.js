@@ -4,7 +4,7 @@ import {SmallHeader} from 'components/header'
 import GetInTouch from 'components/get-in-touch'
 import Footer from 'components/footer'
 
-const Article = ({ title, html, header}) =>
+const Article = ({ title, html, header, showCTA = true}) =>
   <div className="article">
     <div className="article__container">
       <SmallHeader />
@@ -17,7 +17,7 @@ const Article = ({ title, html, header}) =>
       <div className="article__content"
         dangerouslySetInnerHTML={{ __html: html }}
       />
-      <GetInTouch />
+      <GetInTouch showCTA={showCTA} />
       <Footer />
     </div>
   </div>

@@ -2,6 +2,7 @@
 path: "/rediscover-you"
 title: "Rediscover You"
 date: "2018-10-21"
+show_cta: false
 ---
 
 Ready to strengthen your self trust and get attuned with your intuition?
@@ -19,6 +20,10 @@ I’ve designed this program to empower and transform your mindset so that you c
 - Wants to be inspired to take action on her dreams
 
 This program is all about Rediscovery, Mindset and building your Confidence, we will be using the very techniques I have used to overcome my struggle with self-love and how I built my self-esteem back up.
+
+<div class="video-container">
+  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Florien.alexandra%2Fvideos%2F10156812183566340%2F&show_text=0&width=560" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+</div>
 
 #### What you will get:
 
@@ -46,5 +51,5 @@ You will be on the path to building a life and routines that are aligned with yo
 Ready to invest in Rediscovering You? Only 6 spots availablem, you won't want to miss this opportunity!
 
 <div class="cta__container">
-  <a class="cta__button" href="/sign-up">Sign up now!</a>
+  <a class="cta__button" href="https://goo.gl/forms/16ajtlyJfdUQNoom1">Sign up now!</a>
 </div>

@@ -15,6 +15,7 @@ const query = `{
           path
           title
           header_img
+          show_cta
         }
       }
     }
