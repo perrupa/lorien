@@ -2,6 +2,7 @@
 path: "/total-life-transformation"
 title: "Total Life Transformation"
 date: "2018-05-21"
+header_img: 'images/over-shoulder-look.jpg'
 ---
 
 #### 6 month program

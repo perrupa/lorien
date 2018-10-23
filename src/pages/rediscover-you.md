@@ -3,6 +3,7 @@ path: "/rediscover-you"
 title: "Rediscover You"
 date: "2018-10-21"
 show_cta: false
+header_img: 'images/over-shoulder-look.jpg'
 ---
 
 Ready to strengthen your self trust and get attuned with your intuition?

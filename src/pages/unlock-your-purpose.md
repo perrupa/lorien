@@ -1,6 +1,7 @@
 ---
 path: "/unlock-your-purpose"
 title: "Unlock Your Purpose"
+header_img: 'images/over-shoulder-look.jpg'
 date: "2018-05-21"
 ---
 

@@ -2,6 +2,7 @@
 path: "/awaken-your-authentic-self"
 title: "Awaken your Authentic self"
 date: "2018-05-21"
+header_img: 'images/over-shoulder-look.jpg'
 ---
 
 #### 12 week program

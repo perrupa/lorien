@@ -2,12 +2,13 @@
 path: "/align-yourself-with-purpose"
 title: "Align Yourself with Purpose"
 date: "2018-05-21"
+header_img: 'images/over-shoulder-look.jpg'
 ---
 
 #### 6 week intensive
 
 Your purpose isn't what you think about on a daily basis.
-Your purpose is what you were put on this planet to do, and how you are meant to serve and help others. 
+Your purpose is what you were put on this planet to do, and how you are meant to serve and help others.
 This program is designed to reconnect you with the deepest part
 of your essential self. You will learn who you are and what
 you need to feel whole and fulfillment, and let go of the beliefs
@@ -25,7 +26,7 @@ and thoughts that no longer serve you.
 - 6 week methodology + homework and follow up
 - weekly focus on specific themes to identify, grow and live in purpose
 - Tools to help maintain progress and continue your journey after coaching
-- Lead meditation and visioning exercises 
+- Lead meditation and visioning exercises
 
 
 
@@ -39,5 +40,5 @@ and thoughts that no longer serve you.
 - Become more in tuned with yourself, which will lead to a more excited, inspired, passionate, & fulfilled life.
 - Build a stronger sense of self and inner power to be able to listen and follow your intuition.
 
-The standard price for this program is $800.00, however members of the "Rediscover You" group you will receive an exclusive $200.00 discount. 
+The standard price for this program is $800.00, however members of the "Rediscover You" group you will receive an exclusive $200.00 discount.
 On top of that, if you sign up by June 24th you'll also qualify for a free 1 on 1 clarity call as well.
