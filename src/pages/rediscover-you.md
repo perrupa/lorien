@@ -6,6 +6,22 @@ show_cta: false
 header_img: 'images/over-shoulder-look.jpg'
 ---
 
+Our lives are a projection of our emotional state. We react to situations and circumstances based on this emotional state, based on our past experiences.
+
+Depending on the experiences you’ve had this can leave you with empowering or disempowering beliefs, that can be broken down into 5 layers.
+
+1. Behavior
+2. The Story
+3. Emotion
+4. The Belief
+5. The Original Incident
+
+Rediscover You was designed to help you break down the disempowering layers to help you find the root cause of these beliefs, and how they came to be. From there I can help you rebuild that story so that you can break through your patterns and move forward with a new and empowering belief system.
+
+Example – Suffering from low self-esteem? Together we can find the root cause of this behavior and build it up into a place of self-empowerment and self-love.
+
+#### Are you ready?
+
 Ready to strengthen your self trust and get attuned with your intuition?
 
 The greatest journey always begins with you.
