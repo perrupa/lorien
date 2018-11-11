@@ -45,7 +45,7 @@ const Packages = () =>
           body="Feeling lost or a lack of self fulfillment? With this package we will strengthen your connection with your true self.  Begin to expand and deepen your self awareness and bring purpose back to your life."
           url="/unlock-your-purpose" />
         <Card
-          title="Rediscover You (Group)"
+          title="Rediscover You"
           body="As a group we will explore our inner goddess.  We will strengthen our connection with our authentic selves through expanding our knowledge on our thoughts and emotions to have a better understanding on how to bring purpose and joy back into our lives."
           url="/rediscover-you" />
         <Card
