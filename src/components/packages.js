@@ -46,7 +46,7 @@ const Packages = () =>
           url="/unlock-your-purpose" />
         <Card
           title="Rediscover You"
-          body="As a group we will explore our inner goddess.  We will strengthen our connection with our authentic selves through expanding our knowledge on our thoughts and emotions to have a better understanding on how to bring purpose and joy back into our lives."
+          body="Ready to strengthen your self trust and get attuned with your intuition? The greatest journey always begins with you. I’ve designed this program to empower and transform your mindset so that you can achieve a life you're excited about. To build your self esteem so that you have the confidence to go out there and get it for yourself."
           url="/rediscover-you" />
         <Card
           title="Awaken Your Authentic Self"
