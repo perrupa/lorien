@@ -36,7 +36,7 @@ const Packages = () =>
     </div>
 
     <div className="video-container">
-      <iframe src="https://www.youtube.com/embed/TyAklE4xK_s?ecver=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/TyAklE4xK_s?ecver=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     </div>
 
     <div className="package-background">

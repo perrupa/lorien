@@ -28,6 +28,7 @@ module.exports = {
         exclude: ["localhost"],
       },
     },
+    'gatsby-plugin-emotion',
     'gatsby-transformer-remark',
     `gatsby-plugin-sass`,
     'gatsby-plugin-catch-links',
