@@ -10,7 +10,9 @@ const ResponsiveImage = styled.img`
 `
 
 const Intro = () =>
-  <SplitContainer>
+  <SplitContainer className={css`
+    background-color: #fff;
+  `}>
     <Container className={css`
       align-content: flex-start;
       flex: 2 1;
