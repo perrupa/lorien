@@ -4,8 +4,6 @@ import Article from 'components/article'
 export default function Template({ data }) {
   const { markdownRemark: { frontmatter, html } } = data
 
-  // debugger
-
   return <Article
     title={frontmatter.title}
     html={html}
