@@ -2,7 +2,7 @@
 path: '/black-friday'
 title: 'Black Friday Offer'
 date: '2018-11-21'
-header_img: 'images/black-friday.png'
+header_img: '/images/black-friday.png'
 ---
 
 When you know the purpose of your life, you tend to live a more meaningful existence. You live each day to the fullest because you know who you are, where you’re coming from, and where you’re going.
