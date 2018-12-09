@@ -5,8 +5,6 @@ image: /images/smiling-sears-pose.jpg
 date: 2018-07-29
 ---
 
-# My inner voice is my own worst enemy!
-
 Think about all the dreams and aspirations you had for yourself growing up. Have you achieved any of them? And if not, what is stopping you from pursuing them now?
 
 The beauty about life is that we can make what we want out of it. The only limits we have are the ones that we put upon our self. You have the power at any given moment to shift and create a new beginning for yourself.

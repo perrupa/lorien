@@ -5,8 +5,6 @@ image: /images/lo-on-steps.jpg
 date: 2018-07-30
 ---
 
-# Why Life Coaching?
-
 I’ve been asked a lot lately why I got into Life Coaching. The truth is: it chose me.
 
 As long as I can remember, I’ve always had a passion for empowering and supporting others. I have the ability to see someone’s gifts and guide them to see what  has been so clear from the start.
