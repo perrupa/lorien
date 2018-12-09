@@ -10,6 +10,8 @@ import SlideShow from 'components/slideshow'
 import NewsletterCTA from 'components/newsletter-cta'
 import Footer from 'components/footer'
 
+import Testimonials from 'sections/testimonials'
+
 class IndexPage extends Component {
   render() {
     const { data: { allMarkdownRemark: { edges } } } = this.props
@@ -23,6 +25,7 @@ class IndexPage extends Component {
         <Header />
         <Intro />
         <AboutMe />
+        <Testimonials />
         <Packages />
         <SlideShow />
         <BlogSection posts={ posts } />
