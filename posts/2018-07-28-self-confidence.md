@@ -1,7 +1,7 @@
 ---
 title: Self Confidence. What’s that? Where can I find it?
 path: '/posts/self-confidence'
-image: /images/smiling-sears-pose.jpg
+image: /images/smiling-profile.jpg
 date: 2018-07-28
 ---
 
