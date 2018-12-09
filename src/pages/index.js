@@ -38,6 +38,7 @@ export const query = graphql`
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 3
+      filter: { fileAbsolutePath: {regex : "\/posts/"} },
     ) {
       edges {
         node {
