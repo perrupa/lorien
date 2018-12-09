@@ -1,31 +1,55 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Card from 'components/card'
-import styles from './blog-section.scss'
-import profileImg from '../../../static/images/beach-lo-in-profile.jpg'
+import styled from 'react-emotion'
 
-const PostList = ({ posts = [] }) => (
-  <div className="blog-post__container">
-    {posts.map(post =>
-      <Card
-        key={post.frontmatter.title}
-        className="blog-post__summary"
-        title={post.frontmatter.title}
-        body={post.excerpt}
-        image={post.frontmatter.image}
-        path={post.frontmatter.path}
-      />
-    )}
-  </div>
-)
+const BlogContainer = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`
+
+const ThumbnailWrapper = styled.div`
+  flex: 0 30%;
+`
+
+const Thumbnail = styled.img`
+  height: auto;
+  width: 100%;
+`
+
+const BlogThumbnail = ({title, image, body, path}) => {
+  console.log(title, image)
+  return (
+    <ThumbnailWrapper>
+      <Thumbnail src={image} alt="" />
+      <div>
+        <Link to={path}>{title}</Link>
+      </div>
+    </ThumbnailWrapper>
+  )
+}
+
+
+const PostList = ({ posts = [] }) => {
+  return (
+    <BlogContainer>
+      {posts.map(post =>
+        <BlogThumbnail
+          key={post.frontmatter.title}
+          title={post.frontmatter.title}
+          body={post.excerpt}
+          image={post.frontmatter.image}
+          path={post.frontmatter.path}
+        />
+       )}
+    </BlogContainer>
+  )
+}
 
 export default function BlogSection({ posts = [] }) {
   console.log("Posts", posts)
   return (
     <div className="">
-      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
-
-      <h3>
+      <h3 style={{ textAlign: 'center' }}>
         <Link to="/blog/">Blog</Link>
       </h3>
 

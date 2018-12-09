@@ -21,8 +21,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
-        header_img
-        show_cta
+        image
       }
     }
   }

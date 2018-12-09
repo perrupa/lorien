@@ -28,9 +28,9 @@ class IndexPage extends Component {
         <Header />
         <Intro />
         <AboutMe />
-        <BlogSection posts={ posts } />
         <Packages />
         <SlideShow />
+        <BlogSection posts={ posts } />
         <NewsletterCTA />
         <Footer />
       </section>
@@ -42,7 +42,7 @@ export const query = graphql`
   query getPosts {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
-      limit: 1000
+      limit: 3
     ) {
       edges {
         node {
@@ -53,6 +53,7 @@ export const query = graphql`
             date
             path
             title
+            image
           }
         }
       }

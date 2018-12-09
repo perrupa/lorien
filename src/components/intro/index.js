@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled, { css } from 'react-emotion'
 import Lo from 'static/images/Lo.jpg'
-import { SplitContainer, Container } from './split-container'
+import { SplitContainer, Container } from '../split-container'
 
 const ResponsiveImage = styled.img`
   display: inline-block;
