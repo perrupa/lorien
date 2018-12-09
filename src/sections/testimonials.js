@@ -41,7 +41,7 @@ const FlowerWrapper = styled.div`
 const Flower= styled.img`
   display: block;
   margin: auto;
-  width: 40%;
+  width: 30%;
 `
 
 const Testimonials = () => {

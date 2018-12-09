@@ -1,7 +1,17 @@
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
 import Card from 'components/card'
-import './packages.scss'
+import styled from 'react-emotion'
+
+const PackageIntro = styled.div`
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em 0;
+  background-color: rgba(225, 215, 209, .3);
+  background-position: center;
+  background-size: cover;
+`
 
 const text = `
 ## Work wi th me
@@ -29,11 +39,9 @@ NOT for you if you:
 
 const Packages = () =>
   <div>
-    <div className="package-intro">
-      <article className="package-intro">
-        <ReactMarkdown source={text} />
-      </article>
-    </div>
+    <PackageIntro>
+      <ReactMarkdown source={text} />
+    </PackageIntro>
 
     <div className="video-container">
       <iframe src="https://www.youtube.com/embed/TyAklE4xK_s?ecver=1" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
