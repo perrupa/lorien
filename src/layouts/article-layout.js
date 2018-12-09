@@ -7,8 +7,8 @@ export default function Template({ data }) {
   return <Article
     title={frontmatter.title}
     html={html}
-    header={frontmatter.header_img}
     showCTA={frontmatter.show_cta !== false}
+    header={frontmatter.image}
   />
 }
 

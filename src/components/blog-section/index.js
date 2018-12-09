@@ -12,6 +12,7 @@ const PostList = ({ posts = [] }) => (
         className="blog-post__summary"
         title={post.frontmatter.title}
         body={post.excerpt}
+        image={post.frontmatter.image}
         path={post.frontmatter.path}
       />
     )}
@@ -19,6 +20,7 @@ const PostList = ({ posts = [] }) => (
 )
 
 export default function BlogSection({ posts = [] }) {
+  console.log("Posts", posts)
   return (
     <div className="">
       <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
