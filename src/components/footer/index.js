@@ -10,7 +10,7 @@ const Image = ({src, alt}) =>
 const Footer = () =>
   <div className="footer">
     <div className="icon-container">
-      <a className="link" href="http://instagram.com/lorienmasters">
+      <a className="link" href="http://instagram.com/lolifecoach">
         <Image src={insta} alt="follow me on Instagram" />
       </a>
 
