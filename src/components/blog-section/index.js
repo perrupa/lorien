@@ -2,31 +2,13 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
+import BlogThumbnail from './thumbnail'
+
 const BlogContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: ${p => p.wrap}
 `
-
-const ThumbnailWrapper = styled.div`
-  flex: 0 30%;
-`
-
-const Thumbnail = styled.img`
-  height: auto;
-  width: 100%;
-`
-
-const BlogThumbnail = ({title, image, body, path}) => {
-  console.log(title, image)
-  return (
-    <ThumbnailWrapper>
-      <Thumbnail src={image} alt="" />
-      <div>
-        <Link to={path}>{title}</Link>
-      </div>
-    </ThumbnailWrapper>
-  )
-}
 
 
 const PostList = ({ posts = [] }) => {
@@ -58,3 +40,4 @@ export default function BlogSection({ posts = [] }) {
   )
 }
 
+export { BlogContainer, BlogThumbnail }

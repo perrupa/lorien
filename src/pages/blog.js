@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import PageLayout from '../layouts/page-layout'
+import { BlogContainer, BlogThumbnail } from '../components/blog-section'
 
 class BlogPage extends Component {
   render() {
@@ -9,13 +11,21 @@ class BlogPage extends Component {
         .map(({node}) => node)
 
     return (
-      <section>
+      <PageLayout>
         <h1>Blog Posts</h1>
-        Check out all this knowledge!
-        {posts.map(p =>
-          <div>{p.frontmatter.title}</div>
-        )}
-      </section>
+        <BlogContainer wrap="wrap">
+          {posts.map(post => (
+            <BlogThumbnail
+              key={post.frontmatter.title}
+              title={post.frontmatter.title}
+              body={post.excerpt}
+              image={post.frontmatter.image}
+              path={post.frontmatter.path}
+            />
+          )
+          )}
+        </BlogContainer>
+      </PageLayout>
     )
   }
 }
@@ -26,6 +36,7 @@ export const query = graphql`
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] }
       limit: 1000
+      filter: { fileAbsolutePath: {regex : "\/posts/"} }
     ) {
       edges {
         node {
@@ -36,6 +47,7 @@ export const query = graphql`
             date
             path
             title
+            image
           }
         }
       }
