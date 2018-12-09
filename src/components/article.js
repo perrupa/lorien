@@ -1,24 +1,18 @@
 import React from 'react'
-import 'styles/page-layout.scss'
-import LayoutContainer from '../layouts/page-layout'
-import {SmallHeader} from 'components/header'
+import PageLayout from '../layouts/page-layout'
+import {ImageHeader} from 'components/header'
 import GetInTouch from 'components/get-in-touch'
 import Footer from 'components/footer'
 
 const Article = ({ title, html, header, showCTA = true}) =>
-  <div className="article">
-    <div className="article__container">
-      <SmallHeader />
-      { header ?
-        <img className="article__header-img" src={header} alt={title} />
-        : null }
-      <div className="article__content"
-        dangerouslySetInnerHTML={{ __html: html }}
-      />
-      <GetInTouch showCTA={showCTA} />
-      <Footer />
+  <PageLayout title={title} header={header} html={html}>
+    <ImageHeader title={title} header={header} />
+    <div className="layout-container__content">
+      <h1>{title}</h1>
+      <div dangerouslySetInnerHTML={{ __html: html }} />
     </div>
-  </div>
+    <GetInTouch showCTA={showCTA} />
+  </PageLayout>
 
 export default Article
 
