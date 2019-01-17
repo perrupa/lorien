@@ -6,7 +6,7 @@ import BlogThumbnail from './thumbnail'
 
 const BlogContainer = styled.div`
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: ${p => p.wrap}
 `
 
