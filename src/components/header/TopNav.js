@@ -23,8 +23,8 @@ const NavLink = styled.a`
 `
 
 const LINKS = {
+  'About Lo': '/who-i-am/',
   'Blog': '/blog/',
-  'Who I am': '/who-i-am/',
 }
 
 export const TopNav = ({ posts = [] }) => {

@@ -5,9 +5,10 @@ import styled from 'react-emotion'
 import BlogThumbnail from './thumbnail'
 
 const BlogContainer = styled.div`
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: ${p => p.wrap}
+  padding: 0 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, auto));
+  grid-gap: 2em;
 `
 
 

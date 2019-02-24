@@ -3,7 +3,22 @@ import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
 const ThumbnailWrapper = styled.div`
-  flex: 0 30%;
+  position: relative;
+  line-height: 0;
+`
+
+const ThumbnailLinkContainer = styled.div`
+  position: absolute;
+  bottom: .5em;
+  left: 1em;
+  max-width: 50%;
+  line-height: 1.1;
+`
+
+const ThumbnailLink = styled(Link)`
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 3px #000;
 `
 
 const Thumbnail = styled.img`
@@ -18,9 +33,9 @@ export default function BlogThumbnail({title, image, body, path}) {
       <Link to={path}>
         <Thumbnail src={image} alt="" />
       </Link>
-      <div>
-        <Link to={path}>{title}</Link>
-      </div>
+      <ThumbnailLinkContainer>
+        <ThumbnailLink to={path}>{title}</ThumbnailLink>
+      </ThumbnailLinkContainer>
     </ThumbnailWrapper>
   )
 }
