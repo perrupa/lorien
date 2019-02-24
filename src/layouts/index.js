@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import { TopNav } from 'components/header/TopNav'
 
 // Styles
 import 'styles/main.scss'
@@ -20,6 +21,7 @@ const TemplateWrapper = ({ children }) => {
         ]}
       >
       </Helmet>
+      <TopNav />
       <div className='container'>
         {children()}
       </div>
