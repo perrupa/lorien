@@ -1,6 +1,14 @@
 import React, { Component } from 'react'
+import styled from 'react-emotion'
+
 import PageLayout from '../layouts/page-layout'
 import { BlogContainer, BlogThumbnail } from '../components/blog-section'
+import headerImg from 'static/images/lo-croatia-boat.jpg'
+
+const HeroImage = styled.img`
+  margin: 2em auto;
+  width: 90%;
+`
 
 class BlogPage extends Component {
   render() {
@@ -12,6 +20,7 @@ class BlogPage extends Component {
 
     return (
       <PageLayout>
+        <HeroImage src={headerImg} alt="" />
         <h1>Blog Posts</h1>
         <BlogContainer wrap="wrap">
           {posts.map(post => (

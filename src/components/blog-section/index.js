@@ -29,7 +29,6 @@ const PostList = ({ posts = [] }) => {
 }
 
 export default function BlogSection({ posts = [] }) {
-  console.log("Posts", posts)
   return (
     <div className="">
       <h3 style={{ textAlign: 'center' }}>
