@@ -14,7 +14,7 @@ const PackageIntro = styled.div`
 `
 
 const text = `
-## Work wi th me
+## Work with me
 
 The following programs are ...
 
