@@ -6,8 +6,20 @@ import { BlogContainer, BlogThumbnail } from '../components/blog-section'
 import headerImg from 'static/images/lo-croatia-boat.jpg'
 
 const HeroImage = styled.img`
-  margin: 2em auto;
-  width: 90%;
+  width: 100%;
+`
+
+const HeroWrapper = styled.div`
+  margin: 2em;
+  position: relative;
+`
+
+const HeroTitleContainer = styled.div`
+  text-align: right;
+  position: absolute;
+  color: rgba(0,0,0,.7);
+  top: 1em;
+  right: 1em;
 `
 
 class BlogPage extends Component {
@@ -20,8 +32,14 @@ class BlogPage extends Component {
 
     return (
       <PageLayout>
-        <HeroImage src={headerImg} alt="" />
-        <h1>Blog Posts</h1>
+        <HeroWrapper>
+          <HeroImage src={headerImg} alt="" />
+          <HeroTitleContainer>
+            <h1>The Lo Down</h1>
+            <p>My thoughts on the <br />
+               mind, ego and heart</p>
+          </HeroTitleContainer>
+        </HeroWrapper>
         <BlogContainer wrap="wrap">
           {posts.map(post => (
             <BlogThumbnail
