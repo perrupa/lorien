@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
 import Link from 'gatsby-link'
+import { TopNav } from 'components/header/TopNav'
 import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
@@ -22,6 +23,7 @@ class IndexPage extends Component {
 
     return (
       <section>
+        <TopNav />
         <Header />
         <Intro />
         <AboutMe />
