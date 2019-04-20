@@ -1,13 +1,18 @@
 import React, { Component } from 'react'
 import styled, { css } from 'react-emotion'
 import Lo from 'static/images/smile-step.jpg'
-import { SectionTitle } from './section-title'
-import { SplitContainer, Container } from './split-container'
+import Link from 'gatsby-link'
+import { SectionTitle } from 'components/section-title'
+import { SplitContainer, Container } from 'components/split-container'
 
 const ResponsiveImage = styled.img`
   display: inline-block;
   width: 100%;
   height: auto;
+`
+
+const ListItem = styled.li`
+  margin-bottom: 1em;
 `
 
 const WorkWithMe = () =>
@@ -36,20 +41,20 @@ const WorkWithMe = () =>
         }
       `}>
         <div>
-          <p>
+          <p style={{ fontSize: '120%' }}>
             My 1 on 1 coaching is designed for women who are ready to:
           </p>
 
           <ul>
-            <li>Become more in tuned with who you are, what you need to feel purpose and fulfillment</li>
-            <li>How to let go of the thoughts, emotions and beliefs that no longer serve you</li>
-            <li>Be reinvigorated by learning how to rebuild your self-esteem and confidence</li>
-            <li>The ability to enjoy the present and journey not just the outcome</li>
-            <li>Tools to build accountability with yourself</li>
-            <li>The ability to accept and celebrate the UNIQUE woman you are</li>
+            <ListItem>Become more in tuned with who you are, what you need to feel purpose and fulfillment</ListItem>
+            <ListItem>How to let go of the thoughts, emotions and beliefs that no longer serve you</ListItem>
+            <ListItem>Be reinvigorated by learning how to rebuild your self-esteem and confidence</ListItem>
+            <ListItem>The ability to enjoy the present and journey not just the outcome</ListItem>
+            <ListItem>Tools to build accountability with yourself</ListItem>
+            <ListItem>The ability to accept and celebrate the UNIQUE woman you are</ListItem>
           </ul>
 
-          <p><Link to="/who-i-am">Read more...</Link></p>
+          <p><Link to="/rediscover-you">Read more...</Link></p>
         </div>
       </Container>
     </SplitContainer>

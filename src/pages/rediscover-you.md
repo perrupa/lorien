@@ -20,7 +20,7 @@ Rediscover You was designed to help you break down the disempowering layers to h
 
 Example – Suffering from low self-esteem? Together we can find the root cause of this behavior and build it up into a place of self-empowerment and self-love.
 
-#### Are you ready?
+## Are you ready?
 
 Ready to strengthen your self trust and get attuned with your intuition?
 
@@ -28,7 +28,7 @@ The greatest journey always begins with you.
 
 I’ve designed this program to empower and transform your mindset so that you can achieve a life you're excited about. To build your self esteem so that you have the confidence to go out there and get it for yourself.
 
-#### Rediscover You is designed for the woman who:
+## Rediscover You is designed for the woman who:
 
 - Is willing to commit to herself
 - Is ready to rebuild her self-esteem and confidence
@@ -38,10 +38,10 @@ I’ve designed this program to empower and transform your mindset so that you c
 
 This program is all about Rediscovery, Mindset and building your Confidence, we will be using the very techniques I have used to overcome my struggle with self-love and how I built my self-esteem back up.
 
-#### What you will get:
+## What you will get:
 
-- 3 months of Live Empowering Coaching Calls via Zoom
-- LIFE CHANGING modules and exercises digging deep into your core self (how often do you spend 12 weeks on YOU?)
+- 6 weeks, 12 weeks or 3 months of live, empowering Coaching Calls in-person (or via Zoom/Skype/Phone)
+- LIFE CHANGING modules and exercises digging deep into your core self
 - Lead mindful practices to strengthen and connect with your authentic self
 - Guidance to find and align yourself with purpose
 - Be reinvigorated by learning how to rebuild your self-esteem and confidence
