@@ -5,6 +5,7 @@ import { TopNav } from 'components/header/TopNav'
 import Header from 'components/header'
 import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
+import HeyGirl from 'components/hey-girl'
 import BlogSection from 'components/blog-section'
 import Packages from 'components/packages'
 import SlideShow from 'components/slideshow'
@@ -25,7 +26,7 @@ class IndexPage extends Component {
       <section>
         <TopNav />
         <Header />
-        <Intro />
+        <HeyGirl />
         <AboutMe />
         <Testimonials />
         <Packages />
