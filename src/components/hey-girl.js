@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import profileImg from '../../static/images/smiling-profile.jpg'
 import Link from 'gatsby-link'
 
 const AboutMe = () => {
@@ -15,8 +14,6 @@ const AboutMe = () => {
 
         <p><Link to="/who-i-am">Read more...</Link></p>
       </article>
-
-      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
     </div>
   )
 }

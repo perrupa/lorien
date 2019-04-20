@@ -6,6 +6,7 @@ const AboutMe = () => {
   return (
     <div>
       <article className='about-me'>
+        <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
         <h2>About Me</h2>
 
         <p>
@@ -32,7 +33,6 @@ const AboutMe = () => {
         </p>
 
       </article>
-      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
     </div>
   )
 }

@@ -7,7 +7,7 @@ import Intro from 'components/intro'
 import AboutMe from 'components/about-me'
 import HeyGirl from 'components/hey-girl'
 import BlogSection from 'components/blog-section'
-import Packages from 'components/packages'
+import WorkWithMe from 'components/work-with-me'
 import SlideShow from 'components/slideshow'
 import NewsletterCTA from 'components/newsletter-cta'
 import Footer from 'components/footer'
@@ -28,10 +28,8 @@ class IndexPage extends Component {
         <Header />
         <HeyGirl />
         <AboutMe />
+        <WorkWithMe />
         <Testimonials />
-        <Packages />
-        <SlideShow />
-        <BlogSection posts={ posts } />
         <NewsletterCTA />
         <Footer />
       </section>
