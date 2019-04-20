@@ -5,8 +5,8 @@ import Link from 'gatsby-link'
 const AboutMe = () => {
   return (
     <div>
+      <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
       <article className='about-me'>
-        <img src={profileImg} alt="" style={{ width: '100%', display: 'block' }} />
         <h2>About Me</h2>
 
         <p>
@@ -32,6 +32,7 @@ const AboutMe = () => {
           uninspired in your relationships.
         </p>
 
+        <p><Link to="/who-i-am">Read more...</Link></p>
       </article>
     </div>
   )

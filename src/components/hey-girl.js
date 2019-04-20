@@ -11,8 +11,6 @@ const AboutMe = () => {
 
 
         <p>Whether you've lost yourself in your job, relationship, your role as a parent or simply feel lost in life in general, I’ve got you. </p>
-
-        <p><Link to="/who-i-am">Read more...</Link></p>
       </article>
     </div>
   )

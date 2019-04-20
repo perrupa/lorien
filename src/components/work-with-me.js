@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled, { css } from 'react-emotion'
 import Lo from 'static/images/smile-step.jpg'
+import { SectionTitle } from './section-title'
 import { SplitContainer, Container } from './split-container'
 
 const ResponsiveImage = styled.img`
@@ -13,11 +14,11 @@ const WorkWithMe = () =>
   <section className={css`
     background-color: #fff;
   `}>
-    <h2>Work with me</h2>
+    <SectionTitle>Work with me</SectionTitle>
     <SplitContainer >
       <Container className={css`
         align-content: flex-start;
-        flex: 2 1;
+        flex: .8 1;
       `}>
         <ResponsiveImage src={Lo} alt="" />
       </Container>
@@ -48,6 +49,7 @@ const WorkWithMe = () =>
             <li>The ability to accept and celebrate the UNIQUE woman you are</li>
           </ul>
 
+          <p><Link to="/who-i-am">Read more...</Link></p>
         </div>
       </Container>
     </SplitContainer>

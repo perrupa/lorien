@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
-import blossom from 'static/images/blossom.jpg'
-import camomile from 'static/images/camomile.jpg'
-import button from 'static/images/green-button.jpg'
+import BP from 'static/images/testimonial-BP.jpg'
+import AS from 'static/images/testimonial-AS.jpg'
+import GR from 'static/images/testimonial-GR.jpg'
 
 const TestimonialWrapper = styled.div`
   padding: 1em;
@@ -20,10 +20,6 @@ const Testimonial = styled.div`
   }
 `
 
-const TestimonialHeader = styled.h4`
-  text-align: center;
-`
-
 const TestimonialList = styled.div`
   display: flex;
   flex-direction: column;
@@ -34,46 +30,47 @@ const TestimonialList = styled.div`
   }
 `
 
-const FlowerWrapper = styled.div`
+const TestimonialImageWrapper = styled.div`
   margin-bottom: 1.5em
 `
 
-const Flower= styled.img`
+const TestimonialImage = styled.img`
   display: block;
   margin: auto;
-  width: 30%;
+  width: 70%;
 `
 
 const Testimonials = () => {
   return (
     <TestimonialWrapper>
-      <h2 style={{textAlign: 'center'}}>Why choose Lo</h2>
+      <h2 style={{textAlign: 'center'}}>Testimonials</h2>
 
       <TestimonialList>
         <Testimonial>
-          <FlowerWrapper>
-            <Flower src={camomile} alt="" />
-          </FlowerWrapper>
-          <TestimonialHeader>Passionate</TestimonialHeader>
-          “I love working with Lo she keeps me accountable and thinking about things that I either over look or have not considered. She’s so passionate about her work and it really shows through the little things she does for you like send a text to check up, and working at my pace so that we can really hone in on my strengths.”
-          <br />
-          -- DH
-        </Testimonial>
-        <Testimonial>
-          <FlowerWrapper>
-            <Flower src={button} alt="" />
-          </FlowerWrapper>
-          <TestimonialHeader>Genuine</TestimonialHeader>
-          “Lo has been such an incredible help to me. She goes above and beyond constantly, and genuinely cares about my well-being and success. I contacted her during a time when my I knew that my self confidence issues and anxiety were getting in the way of professional opportunities and life goals, and she has been an absolute rock and champion.”
+          <TestimonialImageWrapper>
+            <TestimonialImage src={AS} alt="" />
+          </TestimonialImageWrapper>
+          Lo has been such an incredible help to me. She goes above and beyond constantly, and genuinely cares about my well-being and success. I contacted her during a time when my I knew that my self confidence issues and anxiety were getting in the way of professional opportunities and life goals, and she has been an absolute rock and champion.
           <br />
           -- AS
         </Testimonial>
         <Testimonial>
-          <FlowerWrapper>
-            <Flower src={blossom} alt="" />
-          </FlowerWrapper>
-          <TestimonialHeader>Vision Driven</TestimonialHeader>
-          “Lo pulled me out of a long time “rut” I was in, and helped me discover skills I didn’t even know I had. To have someone paint this picture of what change would look like - that made such a huge difference. A before and after. And then at a certain point, accountability becomes less of a focus because it’s not about getting it done to get it done - it’s about the journey. I learned things about myself and about what I am capable of that are invaluable.”
+          <TestimonialImageWrapper>
+            <TestimonialImage src={GR} alt="" />
+          </TestimonialImageWrapper>
+            Lo guided and empowered me to
+            boost my confidence. She believed
+            in me so much. I can’t thank her
+            enough for her patience and
+            consistency to get me to where I am.
+          <br />
+          -- GR
+        </Testimonial>
+        <Testimonial>
+          <TestimonialImageWrapper>
+            <TestimonialImage src={BP} alt="" />
+          </TestimonialImageWrapper>
+          Lo pulled me out of a long time “rut” I was in, and helped me discover skills I didn’t even know I had. To have someone paint this picture of what change would look like - that made such a huge difference.
           <br />
           -- BP
         </Testimonial>
