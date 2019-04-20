@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { ColoredSection } from 'components/colored-section'
 import fb from 'static/icons/fb.svg'
 import twitter from 'static/icons/twitter.svg'
 import insta from 'static/icons/insta.svg'
@@ -8,7 +9,7 @@ const Image = ({src, alt}) =>
   <img className="footer__icon" src={src} alt={alt} />
 
 const Footer = () =>
-  <div className="footer">
+  <ColoredSection>
     <div className="icon-container">
       <a className="link" href="http://instagram.com/lolifecoach">
         <Image src={insta} alt="follow me on Instagram" />
@@ -26,6 +27,6 @@ const Footer = () =>
     <p className="footer__text">
       © Lorien Masters {new Date().getFullYear()}
     </p>
-  </div>
+  </ColoredSection>
 
 export default Footer

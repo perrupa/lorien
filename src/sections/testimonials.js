@@ -2,14 +2,11 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import styled from 'react-emotion'
 
+import { PinkSection } from 'components/colored-section'
+
 import BP from 'static/images/testimonial-BP.jpg'
 import AS from 'static/images/testimonial-AS.jpg'
 import GR from 'static/images/testimonial-GR.jpg'
-
-const TestimonialWrapper = styled.div`
-  padding: 1em;
-  background-color: white;
-`
 
 const Testimonial = styled.div`
   display: block;
@@ -42,7 +39,7 @@ const TestimonialImage = styled.img`
 
 const Testimonials = () => {
   return (
-    <TestimonialWrapper>
+    <PinkSection >
       <h2 style={{textAlign: 'center'}}>Testimonials</h2>
 
       <TestimonialList>
@@ -75,7 +72,7 @@ const Testimonials = () => {
           -- BP
         </Testimonial>
       </TestimonialList>
-    </TestimonialWrapper>
+    </PinkSection >
   )
 }
 export default Testimonials
