@@ -1,4 +1,4 @@
-import styled from 'react-emotion'
+import styled from "@emotion/styled";
 
 export const ColoredSection = styled.section`
   background-color: #333;
@@ -7,7 +7,7 @@ export const ColoredSection = styled.section`
   a {
     color: white;
   }
-`
+`;
 
 export const WhiteSection = styled.section`
   background-color: #fff;
@@ -16,7 +16,7 @@ export const WhiteSection = styled.section`
   a {
     color: #333;
   }
-`
+`;
 
 export const PinkSection = styled.section`
   background-color: transparent;
@@ -25,5 +25,4 @@ export const PinkSection = styled.section`
   a {
     color: #333;
   }
-`
-
+`;

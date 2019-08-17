@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactMarkdown from 'react-markdown'
 import Card from 'components/card'
-import styled from 'react-emotion'
+import styled from '@emotion/styled'
 
 const PackageIntro = styled.div`
   display: flex;

@@ -1,18 +1,18 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'react-emotion'
-import logo from 'static/images/logotype-white.svg'
+import React from "react";
+import Link from "gatsby-link";
+import styled from "@emotion/styled";
+import logo from "static/images/logotype-white.svg";
 
 const LogoImg = styled.img`
   height: 2em;
-`
+`;
 
 const NavBar = styled.div`
   display: flex;
   justify-content: space-between;
   background-color: #000;
   padding: 1em;
-`
+`;
 
 const NavLink = styled.a`
   display: flex;
@@ -20,12 +20,12 @@ const NavLink = styled.a`
   color: white;
   font-size: 1em;
   text-decoration: none;
-`
+`;
 
 const LINKS = {
   // 'About Lo': '/who-i-am/',
   // 'Blog': '/blog/',
-}
+};
 
 export const TopNav = ({ posts = [] }) => {
   return (
@@ -37,6 +37,5 @@ export const TopNav = ({ posts = [] }) => {
         <NavLink href={link}>{name}</NavLink>
       ))}
     </NavBar>
-  )
-}
-
+  );
+};

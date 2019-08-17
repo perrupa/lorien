@@ -50,5 +50,18 @@ exports.modifyWebpackConfig = ({ config, stage }) => {
         static: path.resolve(__dirname, 'static'),
       }
     }
-  })
-}
+  });
+};
+
+exports.onCreateWebpackConfig = ({ getConfig, loaders, actions }) => {
+  const config = getConfig();
+
+  config.module.rules = [
+    ...config.module.rules,
+    {
+      ...loaders.js(),
+      test: /\.jsx?$/,
+      exclude: modulePath => /node_modules/.test(modulePath)
+    }
+  });
+};
