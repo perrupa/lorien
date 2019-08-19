@@ -39,6 +39,7 @@ module.exports = {
     "gatsby-transformer-remark",
     `gatsby-plugin-sass`,
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-react-helmet"
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-react-next"
   ]
 };
