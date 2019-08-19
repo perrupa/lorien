@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import styled from "@emotion/styled";
-import { css } from "emotion";
+import { css } from "@emotion/core";
 import Lo from "static/images/smile-step.jpg";
 import Link from "gatsby-link";
 import { SectionTitle } from "components/section-title";
