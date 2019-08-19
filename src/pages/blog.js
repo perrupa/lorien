@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { graphql } from "gatsby";
 import styled from "@emotion/styled";
 
 import PageLayout from "../layouts/page-layout";
